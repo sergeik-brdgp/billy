@@ -30,7 +30,8 @@
     "plugins": [
       "expo-sqlite",
       "./plugins/withRecentsScreenshotDisabled.js",
-      "./plugins/withNoBackupRules.js"
+      "./plugins/withNoBackupRules.js",
+      "./plugins/withNoUrlCache.js"
     ],
     "scheme": "statementimport"
   }
